@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("img/white-digital-matrix-binary-code-numbers-background_1017-25332.avif");
+    background-size: cover;
+    background-color: #f0f4f8;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+
+h1 {
+    font-size: 90px;
+    text-align: center;
+    color: rgba(21, 22, 22, 0.6);
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+    input[type="number"], select {
+        padding: 8px;
+        border: 1px solid #ccc;
+        background-color: rgba(245, 245, 245, 0.7);
+        border-radius: 5px;
+        width: 200px;
+        font-size: 16px;
+    }
+
+select{
+    width: 100px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: rgba(0, 123, 255, 07);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#box1, #box2 {
+    display: flex;
+    justify-content: center;
+    margin-left: 2%;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#box1 input, #box2 input {
+    text-align: center;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#final-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+#final-box input {
+    text-align: center;
+    padding: 8px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    background-color: #e9f5ff;
+}
+
+#sum{
+    margin-left: 48%;
+}
